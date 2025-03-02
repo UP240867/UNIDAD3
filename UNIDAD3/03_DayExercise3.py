@@ -64,7 +64,7 @@ print("'on' está en 'python' y 'araña'?", "on" in "python" and "on" in "lagart
 oracion = "Espero que este curso no sea aburrido."
 print("'aburrido' está en la oración?", "aburrido" in oracion)
 
-print("¿'encendido' no está en 'dragón' ni en 'araña'?", "encendido" not in "lagartija" and "encendido" not in "araña")
+print("¿'encendido' no está en 'lagartija' ni en 'araña'?", "encendido" not in "lagartija" and "encendido" not in "araña")
 
 longitud_python = len("python")
 longitud_float = float(longitud_python)
