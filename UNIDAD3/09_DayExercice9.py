@@ -1,6 +1,4 @@
-# ---------------------------------------------------
 # Nivel 1: Condicionales básicos y comparaciones
-# ---------------------------------------------------
 
 # 1. Verificar si el usuario tiene la edad suficiente para conducir
 edad = int(input("Introduce tu edad para saber si puedes conducir: "))
@@ -36,9 +34,7 @@ else:
 
 print("\n" + "=" * 50 + "\n")
 
-# ---------------------------------------------------
 # Nivel 2: Calificaciones, estaciones y manejo de listas
-# ---------------------------------------------------
 
 # 1. Calificar estudiantes según su puntaje
 puntaje = int(input("Introduce la puntuación del estudiante (0-100): "))
@@ -81,9 +77,7 @@ else:
 
 print("\n" + "=" * 50 + "\n")
 
-# ---------------------------------------------------
 # Nivel 3: Trabajando con diccionarios complejos
-# ---------------------------------------------------
 
 # Diccionario que representa a una persona
 persona = {
