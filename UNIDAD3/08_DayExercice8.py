@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# ---------------------------------------------------------------------------------------------------
 # Diccionario para representar un perro
-# ---------------------------------------------------------------------------------------------------
+
 perro = {
     "nombre": "Rocky", 
     "color": "Gris", 
@@ -19,9 +18,8 @@ for clave, valor in perro.items():
 
 print("\n" + "=" * 40 + "\n")
 
-# ---------------------------------------------------------------------------------------------------
 # Diccionario para representar un estudiante
-# ---------------------------------------------------------------------------------------------------
+
 estudiante = {
     "nombre": "María",
     "apellido": "González",
@@ -38,9 +36,8 @@ print("Datos Iniciales del Estudiante:")
 for clave, valor in estudiante.items():
     print(f"{clave}: {valor}")
 
-# ---------------------------------------------------------------------------------------------------
 # Operaciones con el diccionario 'estudiante'
-# ---------------------------------------------------------------------------------------------------
+
 # 1. Obtener y mostrar la longitud del diccionario
 longitud_estudiante = len(estudiante)
 print("\nLongitud del diccionario estudiante:", longitud_estudiante)
@@ -80,9 +77,8 @@ if "estado_civil" in estudiante:
 else:
     print("\nLa clave 'estado_civil' no existe en el diccionario.")
 
-# ---------------------------------------------------------------------------------------------------
 # Gestión final de variables
-# ---------------------------------------------------------------------------------------------------
+
 # Eliminar el diccionario 'perro'
 del perro
 
